@@ -5,6 +5,7 @@ class Test{
         t.testCode1();
         t.testCode2();
         t.testCode3();
+        System.out.println("\n Now we are checking Prime Numbers: \n");
         PrimeExample p = new PrimeExample();
         p.checkPrime(1);  
         p.checkPrime(3);  
