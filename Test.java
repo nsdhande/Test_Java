@@ -5,5 +5,10 @@ class Test{
         t.testCode1();
         t.testCode2();
         t.testCode3();
+        PrimeExample p = new PrimeExample();
+        p.checkPrime(1);  
+        p.checkPrime(3);  
+        p.checkPrime(17);  
+        p.checkPrime(20);
     }  
 }  
